@@ -1,0 +1,422 @@
+  @import url('https://fonts.googleapis.com/css2?family=Montserrat+Alternates:ital@1&display=swap');
+
+
+  * {
+    margin: 0;
+    font-family: 'Montserrat Alternates', sans-serif;
+  }
+
+  /* Parte referente a navbar  */
+  .navbar {
+
+    display: flex;
+    position: fixed;
+    color: rgb(255, 255, 255);
+    width: 100%;
+    justify-content: flex-end;
+    background-color: #000000;
+  }
+
+  #titulo {
+    color: rgb(255, 255, 255);
+
+    padding: 15px;
+    width: 250px;
+    margin: 15px;
+    margin-left: 30px;
+  }
+
+  .nav {
+    display: flex;
+    color: rgb(255, 255, 255);
+    background-color: #000000;
+    width: 100%;
+    justify-content: flex-end;
+  }
+
+
+  a {
+    text-decoration: none;
+    color: #ffffff;
+  }
+
+
+  .button {
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #000000;
+    height: 100px;
+    width: 250px;
+    font-size: 20px;
+    padding: 20px;
+    border-style: none;
+    margin-left: 0px;
+  }
+
+  .nav {
+
+    align-items: center;
+  }
+
+
+
+  .button:hover {
+    background-color: #68686867;
+    transform: scale(1.0);
+  }
+
+  a, .button{
+    color:white;
+
+  }
+
+  a, .button:hover {
+    font-size: 25px;
+    color: aqua;
+  }
+
+  .box {
+
+    height: 300px;
+  }
+
+
+  /* Informacoes  */
+
+  .ContainerInfo {
+
+    margin: 0px;
+    padding: 270px;
+    background-image: url("../image/bonito.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 300px;
+  }
+
+
+  .ContainerInfo h1 {
+    margin-bottom: 20px;
+    font-size: 150px;
+    padding: 8px;
+    letter-spacing: 10px;
+    font-weight: bold;
+    color: rgb(255, 255, 255);
+    text-shadow: 7px 7px #000000;
+
+  }
+
+  .ContainerInfo h3 {
+    margin-bottom: 20px;
+    font-size: 75px;
+    border-right: 4px solid;
+    padding: 8px;
+    background-color: #272626a2;
+    color: rgb(255, 255, 255);
+
+  }
+
+  .TextInfo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 150px;
+    height: 300px;
+    background-color: rgba(255, 255, 255, 0.767);
+
+  }
+
+  .TextBox {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 900px;
+    border-radius: 4px;
+    font-size: 25px;
+    padding: 5px;
+    margin: 5px;
+
+  }
+
+  .TextBox h2 {
+    text-align: center;
+    color: rgb(0, 0, 0);
+    top: 0px;
+    margin-bottom: 30px;
+    font-size: 30px;
+
+
+  }
+
+  .ContainerPrecos {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    padding: 200px;
+    height: 300px;
+    background-color: #333333;
+  }
+
+  .ContainerPrecos h4 {
+    color: white;
+    font-size: 30px;
+    bottom: 35%;
+
+
+
+  }
+
+  .BoxCards {
+    display: flex;
+    border: 1px solid #ffffff;
+    border-radius: 20%;
+    flex-direction: column;
+    height: 300px;
+    width: 300px;
+    background-color: #ffffff5d;
+    transition: transform 0.5s;
+    margin-left: 2px;
+    margin-left: 2px;
+    box-shadow: 8px 8px 8px black;
+
+  }
+
+
+
+  .BoxCards:hover {
+    transform: scale(1.2);
+
+  }
+
+
+  .Bloco2 {
+    width: 100%;
+    margin-top: 70px;
+    flex-direction: row;
+    justify-content: space-around;
+    display: flex;
+
+
+  }
+
+  .BoxCards {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+
+
+  }
+
+  .BoxCards h3 {
+    margin-top: 20px;
+    font-size: 25px;
+  }
+
+  .imgHair {
+    width: 100px;
+    height: 100px;
+  }
+
+  .imgBeard {
+    width: 100px;
+    height: 100px;
+  }
+
+  .imgSobras {
+    width: 100px;
+    height: 100px;
+  }
+
+  .BoxButton {
+    border-style: none;
+
+  }
+
+  .BoxButton:hover {
+    color: blue;
+
+
+
+  }
+
+  .Banner {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    height: 200px;
+    background-color: grey;
+    align-items: center;
+    justify-content: center;
+
+  }
+
+  .BannerTitulo {
+    padding: 100px;
+  }
+
+  .BannerInfo {
+    flex-direction: column;
+  }
+
+  .imgContainer {
+    display: flex;
+    flex-direction: row;
+    height: 600px;
+    align-items: center;
+    justify-content: space-evenly;
+
+
+  }
+
+  .imgContainer h1 {
+    position: relative;
+    top: 20%;
+    left: 5%;
+  }
+
+  .FotoImg {
+    height: 400px;
+    width: 400px;
+    margin-bottom: 0px;
+    box-shadow: 5px 5px 5px;
+  }
+
+  .Foto1 {
+    width: 100%;
+    height: 100%;
+
+  }
+
+  .Comentario {
+    display: flex;
+    align-items: center;
+    height: 200px;
+    width: 400px;
+    position: relative;
+    bottom: 200px;
+    flex-direction: column;
+    visibility: hidden;
+    background-color: #0000003d;
+
+
+  }
+
+  .Comentario p {
+    color: white;
+    font-size: 18px;
+    text-align: center;
+    margin-bottom: 5px;
+  }
+
+  .FotoImg:hover .Comentario {
+    visibility: visible;
+
+  }
+
+  .GaleriaTitulo {
+    margin-top: 50px;
+    margin-bottom: 0px;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .GaleriaTitulo h1 {
+    position: relative;
+    bottom: 35%;
+  }
+
+
+  .EnderecoContainer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 800px;
+    background-color: #333333;
+
+
+  }
+
+
+
+  .EnderecoCard {
+    width: 800px;
+    height: 400px;
+    background-color: white;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    justify-content: center;
+    align-items: center;
+
+
+
+  }
+
+  .EnderecoInfo {
+    width: 800px;
+    height: 600px;
+    background-color: rgb(255, 255, 255);
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+
+  }
+
+  .InfoBox {
+    margin-top: 50px;
+    width: 200px;
+    display: flex;
+
+    flex-direction: column;
+
+  }
+
+  .InfoBox h1 {
+    margin-bottom: 40px;
+    font-size: 40px;
+  }
+
+  .cellphone {
+    margin-top: 40px;
+    font-weight: bold;
+  }
+
+  .Footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 250px;
+    width: 100%;
+    background-color: black;
+  }
+
+  .Footer h1 {
+
+    color: white;
+  }
+
+  .FooterTitulo {
+    padding: 40px;
+  }
+
+  .FooterInsta {
+    width: 40px;
+    height: 40px;
+    background-color: white;
+
+  }
+
+  .Pag2{
+    background-color: none;
+  }
